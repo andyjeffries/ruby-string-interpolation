@@ -2,7 +2,7 @@
   "name": "ruby-string-interpolation",
   "main": "./lib/ruby-string-interpolation",
   "version": "0.1.0",
-  "description": "A short description of your package",
+  "description": "Keypress handling for # to wrap the selection in interpolation",
   "activationEvents": [
     "ruby-string-interpolation:insert"
   ],
