@@ -1,0 +1,16 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'Enable ruby-string-interpolation': 'ruby-string-interpolation:toggle'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'ruby-string-interpolation'
+      'submenu': [
+        { 'label': 'Toggle', 'command': 'ruby-string-interpolation:toggle' }
+      ]
+    ]
+  }
+]

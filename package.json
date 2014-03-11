@@ -1,0 +1,14 @@
+{
+  "name": "ruby-string-interpolation",
+  "main": "./lib/ruby-string-interpolation",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "activationEvents": ["ruby-string-interpolation:insert"],
+  "repository": "https://github.com/atom/ruby-string-interpolation",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}
