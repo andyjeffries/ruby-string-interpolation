@@ -7,6 +7,6 @@
 
 # For more detailed documentation see
 # https://atom.io/docs/latest/advanced/keymaps
-'.editor':
+'.editor:not(.mini)':
   '#': 'ruby-string-interpolation:insert'
   'alt-3': 'ruby-string-interpolation:insert'
