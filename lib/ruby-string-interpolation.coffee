@@ -13,7 +13,7 @@ module.exports =
 
   insert: ->
     editor = atom.workspace.activePaneItem
-    if editor.getCursorScopes().indexOf("string.quoted.double.ruby") != -1
+    if editor.getCursorScopes().indexOf("string.quoted.double.interpolated.ruby") != -1
       selection = editor.getSelection()
       selection.insertText("\#{#{selection.getText()}}")
       if selection.getText().length == 0
