@@ -8,9 +8,6 @@ module.exports =
   deactivate: ->
     @rubyStringInterpolationView.destroy()
 
-  serialize: ->
-    rubyStringInterpolationViewState: @rubyStringInterpolationView.serialize()
-
   insert: ->
     editor = atom.workspace.activePaneItem
     if editor.getCursorScopes().indexOf("string.quoted.double.interpolated.ruby") != -1
