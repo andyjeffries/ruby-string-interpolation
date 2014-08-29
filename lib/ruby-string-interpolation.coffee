@@ -5,9 +5,6 @@ module.exports =
   activate: (state) ->
     atom.workspaceView.command "ruby-string-interpolation:insert", => @insert()
 
-  deactivate: ->
-    @rubyStringInterpolationView.destroy()
-
   insert: ->
     editor = atom.workspace.activePaneItem
     if editor.getCursorScopes().indexOf("string.quoted.double.interpolated.ruby") != -1
